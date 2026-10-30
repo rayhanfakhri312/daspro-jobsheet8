@@ -10,12 +10,13 @@ public class tugas119 {
         }else{
             for (int i = 1; i <=n;i++){
                 for (int j =1; j<=i;j++){
-                    System.out.print(j);
+                    System.out.print(j+(" "));
                     total++;
                 }
             System.out.println();
             }
         System.out.println("Total angka tercetak: "+total);
         }
+        sc.close();
     }
 }
